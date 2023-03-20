@@ -5,7 +5,7 @@ import "./ExpenseItem.css";
 
 const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);
-  console.log("Why display 8");
+  // console.log("Why display 8");
 
   const clickHandler = () => {
     setTitle("Update!");
